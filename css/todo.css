@@ -1,0 +1,40 @@
+#todo-form {
+  top: 60%;
+  transform: translate(-50%, -60%);
+  font-size: 100%;
+}
+.todo-box {
+  position: absolute;
+  left: 88%;
+  top: 85%;
+  transform: translate(-88%, -85%);
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.todo-box ul {
+  width: 100px;
+}
+
+.todo-box ul li {
+  list-style: none;
+}
+.todo-box ul li button {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+#todo-form input {
+  color: white;
+  font-size: 25px;
+  background: none;
+  width: 300px;
+  height: 35px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid black;
+}
